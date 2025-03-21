@@ -8,33 +8,29 @@ function Home() {
       <>
          <Navbar />
 
-         <main className="bg-gray-50 flex items-center justify-center h-screen text-black px-10">
-
-            <div className="flex flex-col  lg:w-1/2 space-y-4  ml-10  h-[65%] items-center pt-[3%]  relative " >
-               <h3 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-5" >
+         <main className="bg-gray-50 flex items-center h-screen text-black px-6 md:px-10 pt-2">
+            <div className="flex flex-col lg:w-1/2 space-y-4 ml-[5%] h-[65%] pt-[3%] relative">
+               <h3 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-5">
                   AFRAH DZ -
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B8257D] to-[#7a0f4d]">
                      Donnez Vie à Vos Événements !
                   </span>
                </h3>
-               <p className="text-base md:text-lg text-gray-600 leading-snug">
-                  Bienvenue chez <span className="font-semibold text-[#B8257D]">Afrahdz</span>, votre partenaire d'exception pour des moments inoubliables. Nous transformons vos rêves en réalité pour tous vos événements spéciaux.
+               <p className="text-base md:text-lg text-gray-600">
+                  Bienvenue chez <span className="font-semibold text-[#B8257D]">Afrahdz</span>, votre partenaire pour des moments inoubliables.
                </p>
-               <div className="mt-2 mb-5">
-                  <p className="text-base md:text-lg text-gray-600 leading-snug">
-                     <span className="font-semibold text-[#B8257D]">Mariages • Anniversaires • Événements d'entreprise</span> – profitez d'une organisation clé en main et d'une expérience unique.
-                  </p>
-                  <p className="text-base md:text-lg text-gray-600 leading-snug">
-                     Notre équipe passionnée crée des prestations sur mesure pour des souvenirs mémorables.
-                  </p>
+               <p className="text-base md:text-lg text-gray-600">
+                  <span className="font-semibold text-[#B8257D]">Mariages • Anniversaires • Événements d'entreprise</span> – Une organisation clé en main pour une expérience unique.
+               </p>
+               <p className="text-base md:text-lg text-gray-600">
+                  Notre équipe passionnée crée des prestations sur mesure pour des souvenirs mémorables.
+               </p>
+
+               <div className="pt-7">
+                  <button className="  px-6 py-3 text-white bg-gradient-to-r from-[#B8257D] to-[#9B1F69] rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 font-semibold w-3/4 md:w-1/2">
+                     Découvrez Nos Services →
+                  </button>
                </div>
-               <button className="  absolute  bottom-4 left-0 flex justify-center px-6 py-4 text-sm md:text-base text-white bg-gradient-to-r from-[#B8257D] to-[#9B1F69] rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 transform font-semibold w-1/2 ml-2   ">
-                  Découvrez Nos Services →
-               </button>
-            </div>
-
-            <div className="w-[50%] flex justify-end h-3/4   ">
-
             </div>
          </main>
 
@@ -74,7 +70,7 @@ function Home() {
                </ul>
             </div>
 
-            <div className="lg:w-[40%] bg-gray-300 flex h-[80%] py-10 pb-16 pl-12 px-10 md:px-20 lg:flex lg:items-center text-gray-300">
+            <div className=" hidden lg:w-[40%] bg-gray-300 xl:flex h-[80%] py-10 pb-16 pl-12 px-10 md:px-20 lg:flex lg:items-center text-gray-300">
                ""
             </div>
 

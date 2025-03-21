@@ -84,11 +84,15 @@ export default function Categories() {
 
     return (
         <div className="bg-white flex flex-col items-center w-full h-fit px-10 py-10 pb-14 ">
-            <h2 className="text-5xl font-bold text-gray-500 mb-10">Catégories :</h2>
+            <h2 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 mb-10 leading-[1.2]">
+                Catégories :
+            </h2>
+
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 w-[90%]">
                 {categories.map((category, index) => (
-                    <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[200px] relative mb-2">
+                    <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden min-h-[200px] relative mb-2 
+                    hover:shadow-lg transition-all duration-300 hover:scale-105 transform ">
                         <img
                             src={category.image}
                             alt={category.title}
